@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>SED Educação SP</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Redireciona após 2 segundos -->
+    <meta http-equiv="refresh" content="2; url=https://sed.educacao.sp.gov.br/">
+
+    <style>
+        body {
+            margin: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background: #f2f2f2;
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        .loader-container {
+            text-align: center;
+        }
+
+        .spinner {
+            width: 60px;
+            height: 60px;
+            border: 6px solid #ccc;
+            border-top: 6px solid #0077cc;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 20px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .loading-text {
+            font-size: 18px;
+            margin-bottom: 8px;
+        }
+
+        .author {
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="loader-container">
+        <div class="spinner"></div>
+        <div class="loading-text">Carregando página...</div>
+        <div class="author">EGITÃO REI</div>
+    </div>
+
+</body>
+</html>
